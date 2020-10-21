@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="FormValidator.widget.FormValidator" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>Form Validator</name>
+    <description/>
+    <icon />
+    <properties>
+        <property key="validationNanoflow" type="nanoflow">
+            <caption>Validation Nanoflow</caption>
+            <category>General</category>
+            <description>Validation before commit and file upload. Should return a boolean value, when returing false it stops the form submition.</description>
+            <returnType type="Boolean" />
+        </property>
+        <property key="selectedNameAttribute" type="attribute" required="false">
+            <caption>Selected file name</caption>
+            <category>General</category>
+            <description>Set the name of the selected file name</description>
+            <attributeTypes>
+                <attributeType name="String" />
+            </attributeTypes>
+        </property>
+        <property key="selectedSizeAttribute" type="attribute" required="false">
+            <caption>Selected file size</caption>
+            <category>General</category>
+            <description>Set the size of the selected file name</description>
+            <attributeTypes>
+                <attributeType name="Long" />
+            </attributeTypes>
+        </property>
+        <property key="selectedContentAttribute" type="attribute" required="false">
+            <caption>Selected has contents</caption>
+            <category>General</category>
+            <description>Set if a new file is selected</description>
+            <attributeTypes>
+                <attributeType name="Boolean" />
+            </attributeTypes>
+        </property>
+    </properties>
+</widget>

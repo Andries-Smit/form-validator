@@ -1,0 +1,11 @@
+{
+  "generator-mendix": {
+    "promptValues": {
+      "copyright": "Mansystems",
+      "license": "Apache 2",
+      "author": "Andries Smit",
+      "boilerplate": "empty",
+      "widgetoptions": []
+    }
+  }
+}
